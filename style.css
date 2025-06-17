@@ -60,6 +60,13 @@
     font-size: 16px;
 }
 
+.input-group span{
+    color: red;
+    position: absolute;
+    bottom: 5px;
+    right: 18px;
+}
+
 ::placeholder {
     font-size: 14px;
 }
@@ -74,4 +81,10 @@ form button {
     cursor: pointer;
     display: block;
     margin: 30px auto 10px;
+}
+#submit-error{
+    color: red;
+}
+.input-group span i{
+    color:  seagreen;
 }
